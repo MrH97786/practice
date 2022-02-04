@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Register for Webpage !!</h1>
+        <fieldset><legend>Sign up!</legend>
+        <form action="result-page.html" method="GET">
+            <div>
+                <label for="name">Username</label>
+                <input type="text" name="name" id="name" placeholder="type your username" required>
+            </div> 
+            <p></p>   
+            <div>
+                <label for="password">Password </label>
+                <input type="password" name="password" id="password" placeholder="type your password" required>
+            </div>
+            <p></p>
+            <div>
+                <label for="sex">Sex</label>
+                <input type="radio" name="sex">Male
+                <input type="radio" name="sex">Female
+            <p></p>
+            </div>
+            <div>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+            <p></p>
+            <div>
+                What are your interests?
+                <p></p>
+                <label for="programming">Programming</label>
+                <input type="checkbox" name="programming" id="programming">
+            </div>
+            <div>
+                <label for="app development">App development</label>
+                <input type="checkbox" name="app development" id="app development">
+            </div>
+            <div>
+                <label for="game design">Game design</label>
+                <input type="checkbox" name="game design" id="game design">
+            </div>
+            <p></p>
+            <div>
+                <label for="programming type">What is your favourite programming language?</label>
+                <input list="programmes" name="programming" id="programming">
+                <datalist id="programmes">
+                    <option value="Phyton"></option>
+                    <option value="JavaScript"></option>
+                    <option value="Swift"></option>
+                    <option value="Java"></option>
+                    <option value="C++"></option>
+                    <option value="Other"></option>
+                </datalist>
+            </div>  
+        </form>
+        </fieldset>
+    </body>
+</html>
